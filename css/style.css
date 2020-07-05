@@ -1,0 +1,334 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+  background: url("../images/Images/2A.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-brand {
+  margin: 20px 80px;
+}
+
+.navbar {
+  margin: 0px 80px 0px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.up-btn {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.up-btn .fas{
+  text-decoration: none;
+  color: white;
+  opacity: 50%;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.up-btn .fas:hover {
+  opacity: 100%;
+}
+
+/********** Goals **********/
+#goals {
+  background-color: #7C7C7C;
+  padding: 80px;
+}
+
+.goal-photo {
+  width: 75%;
+  border-radius: 80px;
+  margin: 0px 100px;
+}
+
+.goals-row2 {
+  margin: auto;
+  padding: 70px auto;
+}
+
+.goals-row2 .col-12 {
+  margin: 50px auto;
+  color: white;
+}
+
+.goals-row2 .col-12 p {
+  margin-top: 20px;
+}
+
+#header {
+  padding-bottom: 700px;
+}
+
+h1 {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-size: 70px;
+}
+
+p {
+  font-family: 'roboto';
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+/********** Chapters *********/
+#chapters {
+  background-color: white;
+  padding: 80px;
+  text-align: center;
+  color: #7C7C7C;
+}
+
+#chapters img {
+  width: 70%;
+  border-radius: 100%;
+}
+
+#chapters .row {
+  margin: 50px;
+}
+
+#chapters h2 {
+  font-family: 'roboto';
+  font-weight: normal;
+  padding: 40px;
+}
+
+#chapters .btn {
+  text-decoration: none;
+  width: 30%;
+  height: 80px;
+  border-radius: 20px;
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: bold;
+  border-width: 5px;
+  border-color: #7C7C7C;
+  color: #7C7C7C;
+  /*background-color: #7C7C7C;
+  color: white;*/
+}
+
+#chapters .btn:hover {
+  background-color: #7C7C7C;
+  color: white;
+}
+
+#chapters .btn:active {
+  background-color: black;
+  border-color: black;
+}
+
+/*#chapters .btn
+{
+  width: 30%;
+  height: 80px;
+  border-radius: 20px;
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #7C7C7C;
+  color: white;
+}
+#chapters .btn:hover
+{
+  background-color: black;
+}
+/********** Testimony **********/
+#testimony {
+  background-color: #7C7C7C;
+  font-family: 'roboto';
+  color: white;
+}
+
+#testimony img {
+  width: 100%
+}
+
+#testimony h2 {
+  margin: 200px 50px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  line-height: 50px;
+}
+
+#testimony p {
+  font-size: 30px;
+  margin: 200px 50px;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+/********** Photography **********/
+#photography {
+  position: relative;
+}
+
+#photography img {
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  text-align: right;
+  top: 10%;
+  right: 5%;
+  color: white;
+}
+
+/********** myself *********/
+#myself {
+  background-color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+#myself img {
+  width: 40%;
+  margin: 60px;
+  border-radius: 100%;
+}
+
+#myself .col-6 {
+  padding: 60px;
+}
+
+#myself h1 {
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+#myself h2 {
+  font-family: 'roboto';
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.5;
+  word-spacing: 4px;
+}
+
+/********** contact-me **********/
+#contact-me {
+  background-color: #7C7C7C;
+  color: white;
+  font-family: "roboto";
+  padding: 80px;
+}
+
+#contact-me h1 {
+  text-align: right;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-bottom: 0px;
+  padding-right: 40px;
+  margin-right: 100px;
+  padding-left: 100px;
+}
+#contact-me label
+{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#contact-me input
+{
+  padding: 15px;
+  margin: 15px;
+  width: 40%;
+  height: 40px;
+  background-color: #B3B3B3;
+  border: none;
+border-radius: 10px;
+text-align: center;
+font-family: "roboto";
+font-weight: normal;
+color: white;
+}
+#contact-me textarea
+{
+  margin: 15px;
+  background-color: #B3B3B3;
+  border-radius: 10px;
+padding: 10px;
+  font-family: "roboto";
+  font-weight: normal;
+  color: white;
+}
+#contact-me button
+{
+  margin-top: 100px;
+padding-top: 15px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 15px;
+margin-left: 20px;
+font-family: "roboto";
+font-weight: normal;
+border-radius: 8px;
+background-color: #3C3C3C;
+border: none;
+color: white;
+}
+#contact-me button:hover
+{
+  font-weight: bold;
+}
+#contact-me button:active
+{
+  background-color: black;
+}
+
+/********** footer **********/
+#footer
+{
+  background-color: white;
+  text-align: center;
+  color: #7C7C7C;
+  padding: 40px;
+
+}
+.details
+{
+  margin-bottom: 20px;
+}
+#footer i
+{
+  margin: 10px;
+}
+#footer i:hover
+{
+  color: black;
+}
+#footer h3
+{
+  font-family: "roboto";
+  font-weight:300;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
